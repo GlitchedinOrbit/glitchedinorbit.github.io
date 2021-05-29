@@ -1,0 +1,143 @@
+/* GENERAL STYLING */
+
+body {
+    margin: 30px;
+    background-color: #121212; /* #0e0e10 */
+    color: #a9a9a9;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* TOP PANEL  */
+
+#panel-top {
+    background-color: #121212;
+    padding: 1.2em;
+    font-size: 0.9em;
+    text-align: center;
+    margin: auto;
+    margin-bottom:20px;
+    min-width: 300px;
+    max-width: 750px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #efeff1;
+}
+
+h4 {
+    color: #efeff1
+}
+
+/* TABLE */
+
+.content-table {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.85em;
+    margin: auto;
+    position: absolute center;
+    min-width: 375px;
+    max-width: 1200px;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    white-space: pre-wrap;
+}
+
+/* TABLE CAPTION */
+
+.content-table caption {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0.9em 0em;
+    color: #efeff1;
+}
+
+/* TABLE HEADER */
+
+.content-table th {
+    background-color: #18181b;
+    color: #efeff1;
+    text-align: left;
+    font-weight: bold;
+}
+
+th {
+    text-align: left;
+    border-bottom: 4px solid black;
+    position: sticky; /*cannot get sticky header to work */
+    top: 0; /* required for stickiness */
+}
+
+th, td {
+    padding: 1.2em;
+    text-align: left;
+    min-width: 40px;
+    max-width: 200px;
+    border: none;
+}
+
+/* TABLE BODY */
+
+.content-table tbody {
+    background-color: #1f1f23;
+    color: #a9a9a9;
+    vertical-align: baseline;
+}
+
+table, td {
+    text-align: left;
+    border-bottom: 3px solid #0e0e10;
+    border-collapse: collapse;
+}
+
+/* TABLE HOVER */
+
+tr:hover {
+    background-color: #0e0e10;
+    transform: scale(1.01);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/* BOTTOM PANEL  */
+
+#panel-bottom {
+    background-color: #121212;
+    padding: 20px 0;
+    font-size: 0.9em;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    margin-top:50px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+a:link, a:visited {
+    color: white;
+    font-size: 0.9em;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    color: #a9a9a9;
+  }
+
+/* FOOTER */
+
+.footer {
+    padding: 20px 0;
+    background-color:#121212;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    min-width: 300px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 0.8em;
+    color:#a9a9a9;
+  }
