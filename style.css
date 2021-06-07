@@ -3,7 +3,7 @@
 body {
     margin: 30px;
     background-color: #121212; /* #0e0e10 */
-    color: #a9a9a9;
+    color: #efeff1;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -12,22 +12,18 @@ body {
 #panel-top {
     background-color: #121212;
     padding: 1.2em;
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
     margin: auto;
     margin-bottom:20px;
     min-width: 300px;
-    max-width: 750px;
+    max-width: 850px;
     border-radius: 5px 5px 5px 5px;
 }
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #efeff1;
-}
-
-h4 {
-    color: #efeff1
 }
 
 /* TABLE */
@@ -38,7 +34,7 @@ h4 {
     margin: auto;
     position: absolute center;
     min-width: 375px;
-    max-width: 1200px;
+    max-width: 1500px;
     border-radius: 5px 5px 5px 5px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -57,7 +53,7 @@ h4 {
 /* TABLE HEADER */
 
 .content-table th {
-    background-color: #18181b;
+    background-color: #202225;
     color: #efeff1;
     text-align: left;
     font-weight: bold;
@@ -73,29 +69,29 @@ th {
 th, td {
     padding: 1.2em;
     text-align: left;
-    min-width: 40px;
-    max-width: 200px;
+    min-width: 50px;
+    max-width: 150px;
     border: none;
 }
 
 /* TABLE BODY */
 
 .content-table tbody {
-    background-color: #1f1f23;
-    color: #a9a9a9;
+    background-color: #2F3136;
+    color: #8E9297;
     vertical-align: baseline;
 }
 
 table, td {
     text-align: left;
-    border-bottom: 3px solid #0e0e10;
+    border-bottom: 2px solid #202225;
     border-collapse: collapse;
 }
 
 /* TABLE HOVER */
 
 tr:hover {
-    background-color: #0e0e10;
+    background-color: #202225;
     transform: scale(1.01);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
